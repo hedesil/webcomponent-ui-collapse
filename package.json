@@ -1,13 +1,13 @@
 {
   "name": "orange-ui-collapsible",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --output-hashing=none --prod",
     "element": "node build-elements.js",
     "build-web-component": "npm run build && npm run element",
-    "package": "npm run build && cd elements && npm pack && cd ..",
+    "package": "cd elements && npm pack && cd ..",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

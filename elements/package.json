@@ -1,0 +1,6 @@
+{
+  "name": "orange-ui-collapsible",
+  "version": "1.0.0",
+  "main": "./bundle.js",
+  "private": true
+}

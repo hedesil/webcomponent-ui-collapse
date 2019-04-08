@@ -1,9 +1,10 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, Input, OnInit, ViewEncapsulation} from '@angular/core';
 
 @Component({
   selector: 'app-collapsible',
   templateUrl: './collapsible.component.html',
-  styleUrls: ['./collapsible.component.css']
+  styleUrls: ['./collapsible.component.css'],
+  encapsulation: ViewEncapsulation.Emulated
 })
 
 export class CollapsibleComponent implements OnInit {
